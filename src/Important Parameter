@@ -2,5 +2,6 @@
 
 1. Number of Samples
 2. Error Rate of training and test data, like input or labels.
-3. Dimension of parameter( or input data dimension )
-4. ...
+3. Dimension of Parameter( or input data dimension )
+4. Critical Threshold and NOK Threshold
+5. ...
