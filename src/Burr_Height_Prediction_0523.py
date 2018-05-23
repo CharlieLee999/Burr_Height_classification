@@ -333,7 +333,7 @@ model.fit( X_h_mc_train_clf, Y_h_mc_label_train_nn, batch_size=batch_size,
 
 score = model.evaluate( X_h_mc_test_clf, Y_h_mc_label_test_nn, verbose=1 )
 print( 'Neural Network Test score: ', score[0] )
-print( 'Neural Network Test accuray: ', score[1] )
+print( 'Neural Network Test accuracy: ', score[1] )
 print("Neural Network --- %s seconds ---\n" % (time.time() - start_time))
 
 
@@ -431,6 +431,6 @@ model_err.fit( X_h_mc_train_clf, Y_h_mc_label_train_nn_err, batch_size=batch_siz
 
 score = model_err.evaluate( X_h_mc_test_clf, Y_h_mc_label_test_nn, verbose=1 )
 print( 'Neural Network<ERROR> Test score: ', score[0] )
-print( 'Neural Network<ERROR> Test accuray: ', score[1] )
+print( 'Neural Network<ERROR> Test accuracy: ', score[1] )
 print("Neural Network<ERROR> --- %s seconds ---\n" % (time.time() - start_time))
 
